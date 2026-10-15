@@ -1,5 +1,10 @@
 # 🚢 Titanic Passenger Survival Chance Using Deep Learning
 
+## 🔴 Live
+
+**[The Titanic Survival Predictor](https://titanic-survival-chance.streamlit.app/)**
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://titanic-survival-chance.streamlit.app/)
 ## 📌 About the Project
 
 This project predicts the survival chances of Titanic passengers using a Deep Learning model built with TensorFlow and Keras. It features an interactive Streamlit web application where users can enter passenger details and receive a survival probability and prediction.
@@ -87,6 +92,4 @@ streamlit run app.py
 
 🔗 [GitHub Profile](https://github.com/shreyas-650)
 
----
 
-⭐ If you find this project interesting, consider giving the repository a star!
