@@ -4,6 +4,12 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 import pickle
 
+st.set_page_config(
+    page_title="Titanic Survival Predictor",
+    page_icon="🚢",
+    layout="centered"
+)
+
 st.title('Passenger Survival Chance in the Titanic Journey')
 pclass = st.slider('Enter the Passenger Class',1,3)
 sex = st.selectbox('Select Gender',['male','female'])
