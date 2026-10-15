@@ -92,6 +92,4 @@ streamlit run app.py
 
 🔗 [GitHub Profile](https://github.com/shreyas-650)
 
----
 
-⭐ If you find this project interesting, consider giving the repository a star!
