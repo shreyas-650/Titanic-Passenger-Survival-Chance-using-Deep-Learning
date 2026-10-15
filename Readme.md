@@ -2,7 +2,7 @@
 
 ## 📌 About the Project
 
-This project predicts the survival chances of Titanic passengers using a Deep Learning model built with TensorFlow and Keras. The application uses Streamlit to provide an interactive interface where users can enter passenger details and receive a survival probability and prediction.
+This project predicts the survival chances of Titanic passengers using a Deep Learning model built with TensorFlow and Keras. It features an interactive Streamlit web application where users can enter passenger details and receive a survival probability and prediction.
 
 ## ✨ Features
 
@@ -10,7 +10,7 @@ This project predicts the survival chances of Titanic passengers using a Deep Le
 - 👤 Passenger details input, including class, gender, fare, and family information.
 - 🔄 Data preprocessing using Label Encoder, One-Hot Encoder, and Standard Scaler.
 - 🧠 Survival prediction using a trained neural network.
-- 📊 Displays the predicted survival probability and outcome.
+- 📊 Displays survival probability and predicted outcome.
 
 ## 🛠️ Technologies Used
 
@@ -23,9 +23,7 @@ This project predicts the survival chances of Titanic passengers using a Deep Le
 
 ## 📂 Dataset
 
-The project uses the Titanic Huge Dataset containing passenger records.
-
-🔗 **Dataset:** [Titanic Huge Dataset – 1M Passengers (Kaggle)](https://www.kaggle.com/datasets/marcpaulo/titanic-huge-dataset-1m-passengers/data)
+🔗 [Titanic Huge Dataset – 1M Passengers (Kaggle)](https://www.kaggle.com/datasets/marcpaulo/titanic-huge-dataset-1m-passengers/data)
 
 ## 📁 Project Structure
 
@@ -45,14 +43,14 @@ Titanic-Project/
 
 ## ⚙️ Installation and Usage
 
-**1️⃣ Clone the repository**
+### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-cd YOUR-REPOSITORY
+git clone https://github.com/shreyas-650/Titanic-Passenger-Survival-Chance-using-Deep-Learning.git
+cd Titanic-Passenger-Survival-Chance-using-Deep-Learning
 ```
 
-**2️⃣ Create and activate a virtual environment**
+### 2️⃣ Create and Activate a Virtual Environment
 
 ```bash
 python -m venv .venv
@@ -64,13 +62,13 @@ On Windows:
 .venv\Scripts\activate
 ```
 
-**3️⃣ Install dependencies**
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**4️⃣ Run the Streamlit application**
+### 4️⃣ Run the Application
 
 ```bash
 streamlit run app.py
@@ -79,13 +77,15 @@ streamlit run app.py
 ## 🔍 How It Works
 
 1. 👤 Users enter passenger details through the Streamlit interface.
-2. 🔄 The application encodes categorical features and scales the input data.
-3. 🧠 The trained Deep Learning model predicts the survival probability.
+2. 🔄 Categorical features are encoded and input data is scaled.
+3. 🧠 The trained Deep Learning model predicts survival probability.
 4. 📊 The result is classified using a probability threshold of `0.5`.
 
 ## 👨‍💻 Author
 
 **Shreyas Singh**
+
+🔗 [GitHub Profile](https://github.com/shreyas-650)
 
 ---
 
