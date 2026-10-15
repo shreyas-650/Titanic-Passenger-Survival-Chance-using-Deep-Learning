@@ -28,8 +28,8 @@ df = pd.DataFrame({
     'Embarked':embarked
 },index=[0])
 
-if st.button('Show Data'):
-    st.write(df)
+# if st.button('Show Data'):
+#     st.write(df)
 
 with open('label_encoder.pkl','rb') as file:
     label = pickle.load(file)
@@ -49,8 +49,8 @@ df.drop(columns=['Embarked'],inplace = True)
 #------------- Scaling
 df[df.columns] = scaler.transform(df[df.columns])
 
-if st.button('Encoded Data'):
-    st.write(df)
+# if st.button('Encoded Data'):
+#     st.write(df)
 
 #--------------  Prediction
 
