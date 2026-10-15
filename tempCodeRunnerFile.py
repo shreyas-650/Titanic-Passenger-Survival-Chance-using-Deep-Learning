@@ -1,6 +1,0 @@
-pclass = st.slider('Enter the Passenger Class',1,3)
-# sex = st.selectbox('Select Gender',['male','female'])
-# sibsp = st.slider('Enter the total no. of Sibling & Spouce',0,10)
-# parch = st.slider('Enter the total no. of Parent & Child',0,8)
-# fare = st.number_input('Enter the Fair')
-# embarked = st.selectbox('Enter the boarding point',['Southampton','Cherbourg','Queenstown'])
