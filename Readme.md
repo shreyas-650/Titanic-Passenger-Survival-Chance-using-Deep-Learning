@@ -91,5 +91,3 @@ streamlit run app.py
 **Shreyas Singh**
 
 🔗 [GitHub Profile](https://github.com/shreyas-650)
-
-
